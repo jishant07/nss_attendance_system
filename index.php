@@ -119,9 +119,13 @@
 								<td> <?php echo $row['branch'] ?> </td>
 								<td> <?php echo $row['roll_no']; ?> </td>
 								<td> <?php if($row['no_of_events']){echo $row['no_of_events'];}else{echo "No events attended";} ?> </td>
-								<td> <?php if($number_of_events !=0)
+								<td> <?php if($number_of_events !=0 && $number_of_events>9)
 										{
 											echo ($row['no_of_events']/($number_of_events-9))*100;
+										}
+										else if($number_of_events == 9)
+										{
+											echo "100";
 										}
 										else
 										{
