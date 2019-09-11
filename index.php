@@ -21,12 +21,15 @@
 	<div class="container">
 		<br>
 		<br>
-		<div class="row" style="margin:auto;text-align:center;">
+		<div class="row text-center" style="margin:auto;text-align:center;">
 			<div class="col-lg-3 col-md-3 mb-4">
 				<a href="add_event.php"><button class="btn btn-info">Add Events</button></a>
 			</div>
 			<div class="col-lg-3 col-md-3 mb-4">
 				<a href="see_events.php"><button class="btn btn-info">Event Details</button></a>
+			</div>
+			<div class="col-lg-3 col-md-3 mb-4">
+				<a href="daterange.php"><button class="btn btn-info">Check between dates</button></a>
 			</div>
 			<div class="col-lg-3 col-md-3 mb-4">
 				<a href="logout.php"><button class="btn btn-info">Logout</button></a>
