@@ -6,12 +6,12 @@
 	$con = mysqli_connect($servername, $user, $pwd, $db_name); 
 ?>
 
-<!-- <?php 
+<?php 
 
-$servername = 'localhost';
+/*$servername = 'localhost';
 $db_name = 'nss_attendance';
 $user = 'root';
 $pwd = '';
-$con = mysqli_connect($servername, $user, $pwd, $db_name);
+$con = mysqli_connect($servername, $user, $pwd, $db_name);*/
 
-?> -->
+?>
