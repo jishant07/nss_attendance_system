@@ -28,5 +28,5 @@
 		$update_sql = "update `junior_data` set `no_of_events`=$new_value where `id`=$val";
 		$con->query($update_sql);
 	}
-	/*header("Location: index.php"); */
+	header("Location: index.php"); 
  ?>
