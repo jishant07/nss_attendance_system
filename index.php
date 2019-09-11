@@ -123,7 +123,7 @@
 										{
 											if($number_of_events-9 == 0)
 											{
-												echo ($row['no_of_events']/(1))*100
+												echo ($row['no_of_events']/(1))*100;
 											}
 											else
 											{
